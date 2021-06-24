@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="ngang"
+            android:text="ngang" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="doc"
+            android:text="dọc" />
+
+        <Button
+
+            android:onClick="can_trai"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="trái"/>
+
+        <Button
+            android:onClick="can_phai"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="phải"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="tren"
+            android:text="trên" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="giua"
+            android:text="giữa" />
+
+        <Button
+
+            android:onClick="duoi"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="dưới"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="2"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="3"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="4"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="5"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
